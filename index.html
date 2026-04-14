@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangesh Yadav | Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="particles"></canvas>
+
+    <nav id="navbar">
+        <div class="logo">MY</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="floating-icons">
+            <i class="fab fa-html5 float-icon" style="color: #e34c26;"></i>
+            <i class="fab fa-css3-alt float-icon" style="color: #264de4;"></i>
+            <i class="fab fa-js float-icon" style="color: #f0db4f;"></i>
+            <i class="fab fa-php float-icon" style="color: #777bb4;"></i>
+            <i class="fas fa-database float-icon" style="color: #00758f;"></i>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">👋 Welcome to my portfolio</div>
+                <h1>Hi, I'm <span>Mangesh Yadav</span></h1>
+                <p class="hero-subtitle">Full Stack Developer</p>
+                <p class="hero-description">
+                    Passionate developer with 6 months of hands-on experience in building dynamic web applications. 
+                    Skilled in PHP, Laravel, and modern frontend technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-container">
+                    <div class="profile-glow"></div>
+                    <div class="profile-ring"></div>
+                    <img src="me.jpeg" alt="Mangesh Yadav" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="section-header reveal">
+            <span class="section-tag">About Me</span>
+            <h2 class="section-title">Who I Am</h2>
+            <p class="section-subtitle">A passionate developer dedicated to creating impactful solutions</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-image reveal">
+                <div class="about-profile-container">
+                    <div class="about-profile-glow"></div>
+                    <img src="me.jpeg" alt="Mangesh Yadav" class="about-profile-img">
+                </div>
+            </div>
+            <div class="about-content reveal">
+                <h3>Building Digital Experiences</h3>
+                <p>
+                    I'm a Full Stack Developer with a strong foundation in both frontend and backend technologies. 
+                    My journey in web development has been driven by curiosity and a desire to create applications 
+                    that make a difference.
+                </p>
+                <p>
+                    With expertise in PHP, Laravel, and modern JavaScript, I specialize in building scalable 
+                    web applications. I'm a quick learner who thrives in collaborative environments.
+                </p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="6">0</div>
+                        <div class="stat-label">Months Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="10">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">% Dedication</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="section-header reveal">
+            <span class="section-tag">My Skills</span>
+            <h2 class="section-title">Technical Expertise</h2>
+            <p class="section-subtitle">Technologies I work with to bring ideas to life</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <div class="skill-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>Frontend Development</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS3</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Bootstrap</span>
+                    <span class="skill-tag">Tailwind CSS</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Backend Development</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">PHP</span>
+                    <span class="skill-tag">Laravel</span>
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">REST APIs</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>Tools & Platforms</h3>
+                <div class="skill-tags">
+                    <span class="skill-tag">GitHub</span>
+                    <span class="skill-tag">Netlify</span>
+                    <span class="skill-tag">VS Code</span>
+                    <span class="skill-tag">Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="section-header reveal">
+            <span class="section-tag">Portfolio</span>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">Some of my recent work that showcases my skills</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card reveal">
+                <div class="project-image">
+                    <div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 4rem; opacity: 0.3;">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-badge">Full Stack</span>
+                    <h3>Hospital Management System</h3>
+                    <p>
+                        A comprehensive system managing hospital operations including patient appointments, 
+                        doctor dashboards, and billing. Features multi-user roles and role-based access control.
+                    </p>
+                    <div class="project-tech">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link primary">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-link secondary">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card reveal">
+                <div class="project-image" style="background: var(--gradient-2);">
+                    <div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 4rem; opacity: 0.3;">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <span class="project-badge" style="background: var(--gradient-1);">Business Solution</span>
+                    <h3>Inventory Management System</h3>
+                    <p>
+                        Helps small businesses track stock, manage sales, and generate purchase orders. 
+                        Features bulk database operations and PDF invoice generation.
+                    </p>
+                    <div class="project-tech">
+                        <span>Laravel</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>Tailwind</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link primary">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                        <a href="#" class="project-link secondary">
+                            <i class="fab fa-github"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="section-header reveal">
+            <span class="section-tag">Background</span>
+            <h2 class="section-title">Education & Skills</h2>
+            <p class="section-subtitle">My academic journey and soft skills</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2020 - 2023</span>
+                    <h3>B.Sc Information Technology</h3>
+                    <p>Mumbai University</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">2018 - 2020</span>
+                    <h3>Higher Secondary Education</h3>
+                    <p>Maharashtra Board (Class 12)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-header reveal" style="margin-top: 4rem;">
+            <h3 style="font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem;">Soft Skills</h3>
+        </div>
+        <div class="soft-skills-grid">
+            <div class="soft-skill-item reveal">
+                <div class="soft-skill-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h4>Teamwork</h4>
+            </div>
+            <div class="soft-skill-item reveal">
+                <div class="soft-skill-icon">
+                    <i class="fas fa-sync-alt"></i>
+                </div>
+                <h4>Adaptability</h4>
+            </div>
+            <div class="soft-skill-item reveal">
+                <div class="soft-skill-icon">
+                    <i class="fas fa-puzzle-piece"></i>
+                </div>
+                <h4>Problem Solving</h4>
+            </div>
+            <div class="soft-skill-item reveal">
+                <div class="soft-skill-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <h4>Time Management</h4>
+            </div>
+            <div class="soft-skill-item reveal">
+                <div class="soft-skill-icon">
+                    <i class="fas fa-hand-holding-heart"></i>
+                </div>
+                <h4>Patience</h4>
+            </div>
+            <div class="soft-skill-item reveal">
+                <div class="soft-skill-icon">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <h4>Responsibility</h4>
+            </div>
+            <div class="soft-skill-item reveal">
+                <div class="soft-skill-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h4>Creativity</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="section-header reveal">
+            <span class="section-tag">Get In Touch</span>
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="section-subtitle">Have a project in mind? Let's create something amazing!</p>
+        </div>
+        <div class="contact-content reveal">
+            <p style="color: var(--gray); margin-bottom: 2rem;">
+                I'm currently available for freelance work and open to full-time opportunities. 
+                If you have a project that needs some creative touch, I'd love to hear about it.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:8793148168ymangesh103@gmail.com" class="contact-link" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://linkedin.com/in/mangeshyadav2627" target="_blank" class="contact-link" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/mangesh-lang" target="_blank" class="contact-link" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="tel:+918793148168" class="contact-link" title="Phone">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="footer-text">
+            Designed & Built with <span class="heart">❤️</span> by Mangesh Yadav | © 2026
+        </p>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
